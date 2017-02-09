@@ -1,0 +1,18 @@
+{
+  "browserWindow": {
+    "webPreferences": {
+        "webSecurity": false,
+        "webgl": false
+      },
+    "width": 500,
+    "height": 500,
+    "show": true,
+    "useContentSize": true
+  },
+  "v8": {
+    "flags": [
+      "--harmony-async-await"
+    ]
+  }
+
+}
